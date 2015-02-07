@@ -5,3 +5,9 @@ Engine files are not included since I did not program them myself. Engine was pr
 
 ## Screenshots
 ![001](https://raw.githubusercontent.com/woutdp/HocusPocus/master/Screenshots/001.png)
+![002](https://raw.githubusercontent.com/woutdp/HocusPocus/master/Screenshots/002.png)
+![003](https://raw.githubusercontent.com/woutdp/HocusPocus/master/Screenshots/003.png)
+![004](https://raw.githubusercontent.com/woutdp/HocusPocus/master/Screenshots/004.png)
+![005](https://raw.githubusercontent.com/woutdp/HocusPocus/master/Screenshots/005.png)
+![006](https://raw.githubusercontent.com/woutdp/HocusPocus/master/Screenshots/006.png)
+![007](https://raw.githubusercontent.com/woutdp/HocusPocus/master/Screenshots/007.png)
