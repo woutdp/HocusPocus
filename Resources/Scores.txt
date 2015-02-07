@@ -1,0 +1,4 @@
+Red Diamond = 100
+Blue Diamond = 250
+Crown = 1000
+Cup = 500

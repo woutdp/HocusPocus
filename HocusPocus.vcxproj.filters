@@ -1,0 +1,271 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Game Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Engine Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Game Files\Hero">
+      <UniqueIdentifier>{873f1ba5-9f79-48c8-acf1-aec528aa0051}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Files\Bolt">
+      <UniqueIdentifier>{a0f3cf40-62c9-45c7-9f6f-8ad5d2621c1d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Files\HocusPocus">
+      <UniqueIdentifier>{a00de56b-27dd-4c08-9369-13622881f39d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Files\Explosion">
+      <UniqueIdentifier>{0b27d669-5826-4e8d-bb92-4573f36ace12}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Files\Explosion\BigExplosion">
+      <UniqueIdentifier>{70239216-1963-4c03-b83a-31df882210f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Files\Explosion\SmallExplosion">
+      <UniqueIdentifier>{ff0b3d2d-a9af-4936-8e98-2f5450e70892}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Files\Enemy">
+      <UniqueIdentifier>{f06b851a-96b8-47e6-aa54-03842136decf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Files\Enemy\Mushroom">
+      <UniqueIdentifier>{0737996c-ae8b-41e5-b010-2aabb3d9b9a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Files\Stars">
+      <UniqueIdentifier>{a148bb81-0770-46da-aa2c-aa73d591924d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Files\Pickup">
+      <UniqueIdentifier>{7ab79cb4-3b42-43ac-a9d0-bae91d91462c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Files\Pickup\ScorePickup">
+      <UniqueIdentifier>{80bf1222-26da-49ef-a585-ff98eb8c21d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Files\Pickup\HealthPickup">
+      <UniqueIdentifier>{1c39f5bf-b5ed-4ee8-a4f9-95b3ff8d235c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Files\Pickup\CrystalPickup">
+      <UniqueIdentifier>{27d2b0a7-058b-408d-a570-249796332975}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Files\Pickup\KeyPickup">
+      <UniqueIdentifier>{b7133f48-707f-4604-99e4-8d01e993bf99}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Files\Pickup\ExtraShotPickup">
+      <UniqueIdentifier>{f79eb789-a0d1-40fb-b1de-2efd848c1432}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Files\Lock">
+      <UniqueIdentifier>{d59ba8ca-8472-405d-ba84-66b9d675fc22}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Files\Block">
+      <UniqueIdentifier>{cb9027a2-91d7-48ba-b371-cfac52e0ffb2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Files\Lava">
+      <UniqueIdentifier>{511eec74-4f29-46e6-a129-9992e4588e06}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Files\Switch">
+      <UniqueIdentifier>{6a9ed107-93f1-43e0-b8f3-abc82420951b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Files\Enemy\Crocodile">
+      <UniqueIdentifier>{ca48dacd-d3c9-440c-99ac-c8b8271142fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Files\Enemy\Devil">
+      <UniqueIdentifier>{c9abc29e-0c7f-4d3b-a03a-bd927298762f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Files\Sparkles">
+      <UniqueIdentifier>{f7893321-6e9f-4d7f-86fe-0d0ff884d7c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Files\ScoreText">
+      <UniqueIdentifier>{9eacbcac-1526-417a-98aa-df4feeadfa2a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Files\WizardText">
+      <UniqueIdentifier>{62c1242a-e21b-495c-b92b-172f8f0ea09a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AbstractGame.cpp">
+      <Filter>Engine Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEngine.cpp">
+      <Filter>Engine Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GameWinMain.cpp">
+      <Filter>Engine Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Hero.cpp">
+      <Filter>Game Files\Hero</Filter>
+    </ClCompile>
+    <ClCompile Include="Bolt.cpp">
+      <Filter>Game Files\Bolt</Filter>
+    </ClCompile>
+    <ClCompile Include="HocusPocus.cpp">
+      <Filter>Game Files\HocusPocus</Filter>
+    </ClCompile>
+    <ClCompile Include="Explosion.cpp">
+      <Filter>Game Files\Explosion</Filter>
+    </ClCompile>
+    <ClCompile Include="BigExplosion.cpp">
+      <Filter>Game Files\Explosion\BigExplosion</Filter>
+    </ClCompile>
+    <ClCompile Include="SmallExplosion.cpp">
+      <Filter>Game Files\Explosion\SmallExplosion</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy.cpp">
+      <Filter>Game Files\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="Mushroom.cpp">
+      <Filter>Game Files\Enemy\Mushroom</Filter>
+    </ClCompile>
+    <ClCompile Include="Stars.cpp">
+      <Filter>Game Files\Stars</Filter>
+    </ClCompile>
+    <ClCompile Include="Pickup.cpp">
+      <Filter>Game Files\Pickup</Filter>
+    </ClCompile>
+    <ClCompile Include="ScorePickup.cpp">
+      <Filter>Game Files\Pickup\ScorePickup</Filter>
+    </ClCompile>
+    <ClCompile Include="HealthPickup.cpp">
+      <Filter>Game Files\Pickup\HealthPickup</Filter>
+    </ClCompile>
+    <ClCompile Include="CrystalPickup.cpp">
+      <Filter>Game Files\Pickup\CrystalPickup</Filter>
+    </ClCompile>
+    <ClCompile Include="KeyPickup.cpp">
+      <Filter>Game Files\Pickup\KeyPickup</Filter>
+    </ClCompile>
+    <ClCompile Include="ExtraShotPickup.cpp">
+      <Filter>Game Files\Pickup\ExtraShotPickup</Filter>
+    </ClCompile>
+    <ClCompile Include="Lock.cpp">
+      <Filter>Game Files\Lock</Filter>
+    </ClCompile>
+    <ClCompile Include="Block.cpp">
+      <Filter>Game Files\Block</Filter>
+    </ClCompile>
+    <ClCompile Include="Lava.cpp">
+      <Filter>Game Files\Lava</Filter>
+    </ClCompile>
+    <ClCompile Include="Switch.cpp">
+      <Filter>Game Files\Switch</Filter>
+    </ClCompile>
+    <ClCompile Include="Crocodile.cpp">
+      <Filter>Game Files\Enemy\Crocodile</Filter>
+    </ClCompile>
+    <ClCompile Include="Devil.cpp">
+      <Filter>Game Files\Enemy\Devil</Filter>
+    </ClCompile>
+    <ClCompile Include="Sparkles.cpp">
+      <Filter>Game Files\Sparkles</Filter>
+    </ClCompile>
+    <ClCompile Include="ScoreText.cpp">
+      <Filter>Game Files\ScoreText</Filter>
+    </ClCompile>
+    <ClCompile Include="WizardText.cpp">
+      <Filter>Game Files\WizardText</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="resource.h">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AbstractGame.h">
+      <Filter>Engine Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEngine.h">
+      <Filter>Engine Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GameWinMain.h">
+      <Filter>Engine Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Hero.h">
+      <Filter>Game Files\Hero</Filter>
+    </ClInclude>
+    <ClInclude Include="Bolt.h">
+      <Filter>Game Files\Bolt</Filter>
+    </ClInclude>
+    <ClInclude Include="HocusPocus.h">
+      <Filter>Game Files\HocusPocus</Filter>
+    </ClInclude>
+    <ClInclude Include="Explosion.h">
+      <Filter>Game Files\Explosion</Filter>
+    </ClInclude>
+    <ClInclude Include="BigExplosion.h">
+      <Filter>Game Files\Explosion\BigExplosion</Filter>
+    </ClInclude>
+    <ClInclude Include="SmallExplosion.h">
+      <Filter>Game Files\Explosion\SmallExplosion</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy.h">
+      <Filter>Game Files\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="Mushroom.h">
+      <Filter>Game Files\Enemy\Mushroom</Filter>
+    </ClInclude>
+    <ClInclude Include="Stars.h">
+      <Filter>Game Files\Stars</Filter>
+    </ClInclude>
+    <ClInclude Include="Pickup.h">
+      <Filter>Game Files\Pickup</Filter>
+    </ClInclude>
+    <ClInclude Include="ScorePickup.h">
+      <Filter>Game Files\Pickup\ScorePickup</Filter>
+    </ClInclude>
+    <ClInclude Include="HealthPickup.h">
+      <Filter>Game Files\Pickup\HealthPickup</Filter>
+    </ClInclude>
+    <ClInclude Include="CrystalPickup.h">
+      <Filter>Game Files\Pickup\CrystalPickup</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyPickup.h">
+      <Filter>Game Files\Pickup\KeyPickup</Filter>
+    </ClInclude>
+    <ClInclude Include="ExtraShotPickup.h">
+      <Filter>Game Files\Pickup\ExtraShotPickup</Filter>
+    </ClInclude>
+    <ClInclude Include="Lock.h">
+      <Filter>Game Files\Lock</Filter>
+    </ClInclude>
+    <ClInclude Include="Block.h">
+      <Filter>Game Files\Block</Filter>
+    </ClInclude>
+    <ClInclude Include="Lava.h">
+      <Filter>Game Files\Lava</Filter>
+    </ClInclude>
+    <ClInclude Include="Switch.h">
+      <Filter>Game Files\Switch</Filter>
+    </ClInclude>
+    <ClInclude Include="Crocodile.h">
+      <Filter>Game Files\Enemy\Crocodile</Filter>
+    </ClInclude>
+    <ClInclude Include="Devil.h">
+      <Filter>Game Files\Enemy\Devil</Filter>
+    </ClInclude>
+    <ClInclude Include="Sparkles.h">
+      <Filter>Game Files\Sparkles</Filter>
+    </ClInclude>
+    <ClInclude Include="ScoreText.h">
+      <Filter>Game Files\ScoreText</Filter>
+    </ClInclude>
+    <ClInclude Include="WizardText.h">
+      <Filter>Game Files\WizardText</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="big.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="small.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="HocusPocus.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
